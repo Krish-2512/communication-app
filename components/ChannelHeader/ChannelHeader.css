@@ -1,0 +1,41 @@
+/* ChannelHeader.css */
+
+.channel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #f8f9fa; /* Light background color */
+    border-bottom: 1px solid #dee2e6; /* Border at the bottom */
+  }
+  
+  .channel-header .hamburger-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .channel-header .avatar {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 50%; /* Circular avatar */
+    width: 50px; /* Width */
+    height: 50px; /* Height */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow */
+  }
+  
+  .channel-header .title {
+    font-size: 18px; /* Font size for title */
+    font-weight: bold; /* Bold title */
+  }
+  
+  .channel-header .subtitle {
+    font-size: 14px; /* Smaller font for subtitle */
+    color: #6c757d; /* Subtitle color */
+  }
+  
+  .channel-header .members {
+    font-size: 14px; /* Font size for member count */
+    color: #6c757d; /* Color for member count */
+  }
+  
+  
